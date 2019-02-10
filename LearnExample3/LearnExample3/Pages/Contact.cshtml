@@ -1,0 +1,14 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+
+<form method="post">
+    <input type="text" id="name" />
+    <input type="submit" value="Skicka" />
+</form>
+

@@ -1,0 +1,20 @@
+﻿@page
+@model LearnExample3.Pages.NewStudentModel
+@{
+    ViewData["Title"] = "NewStudent";
+}
+
+<h2>NewStudent</h2>
+
+<form method="post">
+
+    <label asp-for="Input.FirstName"></label>
+    <input asp-for="Input.FirstName" />
+    <label asp-for="Input.LastName"></label>
+    <input asp-for="Input.LastName" />
+    <label asp-for="Input.SchoolName"></label>
+    <input asp-for="Input.SchoolName" />
+    <label asp-for="Input.Age"></label>
+    <input asp-for="Input.Age" />
+    <input type="submit" value="SKicka" />
+</form>
